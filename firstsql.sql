@@ -24,4 +24,12 @@ create table buddy
     explain buddy;
         show tables;
     show databases;
+    insert into buddy('Raveen',20,'M','08/03/1997');
+    insert into buddy ('Anee',20,'M','06/08/1996');
+    select * from buddy;
+    select name from buddy;
+    alter table buddy drop dob;
+    alter table buddy add dob varchar(15);
+    describe buddy;
+    
     
